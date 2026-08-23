@@ -46,7 +46,11 @@ payload:
   - DOMAIN-SUFFIX,blzstatic.com
   - DOMAIN-SUFFIX,battle.net.cn
   - DOMAIN-SUFFIX,w3flo.com
+  - DOMAIN-SUFFIX,forge.akamaized.net
+  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-KEYWORD,battle.net
+  - DOMAIN-KEYWORD,bnetaccount
+  - DOMAIN-KEYWORD,w3flo
   - DOMAIN-KEYWORD,blizzard
   - DOMAIN-KEYWORD,overwatch
   - DOMAIN-KEYWORD,diablo
