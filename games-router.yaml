@@ -48,7 +48,6 @@ payload:
   - DOMAIN-SUFFIX,w3flo.com
   - DOMAIN-SUFFIX,w3c.gg
   - DOMAIN-SUFFIX,akamaized.net
-  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-KEYWORD,battle.net
   - DOMAIN-KEYWORD,bnetaccount
   - DOMAIN-KEYWORD,w3flo
@@ -70,12 +69,11 @@ payload:
   # Battle.net — подтверждённые IP-only соединения
   - IP-CIDR,136.68.118.187/32,no-resolve
   - IP-CIDR,34.110.236.123/32,no-resolve
-  
+
   # Current Flo nodes; портовые правила выше являются основным покрытием
   - IP-CIDR,85.90.216.7/32,no-resolve
   - IP-CIDR,38.175.97.149/32,no-resolve
 
-  
   # =========================
   # Epic Games / Fortnite / Unreal
   # =========================
