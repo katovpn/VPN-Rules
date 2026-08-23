@@ -38,7 +38,7 @@ payload:
   - DOMAIN-KEYWORD,vanguard
 
   # =========================
-  # Blizzard / Battle.net / Overwatch / Diablo / WoW
+  # Blizzard / Battle.net / Overwatch / Diablo / WoW / w3champions
   # =========================
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
@@ -46,7 +46,8 @@ payload:
   - DOMAIN-SUFFIX,blzstatic.com
   - DOMAIN-SUFFIX,battle.net.cn
   - DOMAIN-SUFFIX,w3flo.com
-  - DOMAIN-SUFFIX,forge.akamaized.net
+  - DOMAIN-SUFFIX,w3c.gg
+  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-KEYWORD,battle.net
   - DOMAIN-KEYWORD,bnetaccount
@@ -56,7 +57,6 @@ payload:
   - DOMAIN-KEYWORD,diablo
   - DOMAIN-KEYWORD,warcraft
   - DOMAIN-KEYWORD,w3champions
-  - DOMAIN-KEYWORD,akamaized.net
 
   # =========================
   # Epic Games / Fortnite / Unreal
