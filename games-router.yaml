@@ -50,6 +50,7 @@ payload:
   - DOMAIN-KEYWORD,overwatch
   - DOMAIN-KEYWORD,diablo
   - DOMAIN-KEYWORD,warcraft
+  - DOMAIN-KEYWORD,w3champions
 
   # =========================
   # Epic Games / Fortnite / Unreal
