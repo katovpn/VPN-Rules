@@ -58,6 +58,24 @@ payload:
   - DOMAIN-KEYWORD,warcraft
   - DOMAIN-KEYWORD,w3champions
 
+  # W3Champions — подтверждённые IP-only соединения
+  - IP-CIDR,157.90.1.251/32,no-resolve
+  - IP-CIDR,116.202.230.61/32,no-resolve
+
+  # Flo — соединения идут по IP без домена
+  - DST-PORT,3550
+  - DST-PORT,3551
+  - DST-PORT,3552
+
+  # Battle.net — подтверждённые IP-only соединения
+  - IP-CIDR,136.68.118.187/32,no-resolve
+  - IP-CIDR,34.110.236.123/32,no-resolve
+  
+  # Current Flo nodes; портовые правила выше являются основным покрытием
+  - IP-CIDR,85.90.216.7/32,no-resolve
+  - IP-CIDR,38.175.97.149/32,no-resolve
+
+  
   # =========================
   # Epic Games / Fortnite / Unreal
   # =========================
