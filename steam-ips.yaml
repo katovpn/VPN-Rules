@@ -3,7 +3,8 @@ payload:
   # STEAM / VALVE / DOTA 2 — OFFICIAL CURRENT IPv4 PREFIXES (AS32590)
   # Использовать с rule-provider: behavior: classical
   #########################################################################
-
+  # Steam Datagram Relay / Dota 2 / CS2
+  - DST-PORT,27015-27044
   #########################################################################
   # GROUP A — 155.133.x.x
   # Если будут проблемы со Steam Store / Community / логином:
