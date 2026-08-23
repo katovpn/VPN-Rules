@@ -20,6 +20,11 @@ payload:
   - DOMAIN-KEYWORD,dota
   - DOMAIN-KEYWORD,cs2
   - DOMAIN-KEYWORD,counter-strike
+    # Steam / Dota 2 / CS2 network traffic
+  - AND,((NETWORK,UDP),(DST-PORT,27000-27250))
+  - AND,((NETWORK,TCP),(DST-PORT,27015-27050))
+  - AND,((NETWORK,UDP),(DST-PORT,4379))
+  - AND,((NETWORK,UDP),(DST-PORT,4380))
 
   # =========================
   # Riot Games (Valorant / LoL / Vanguard ecosystem)
