@@ -45,12 +45,14 @@ payload:
   - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN-SUFFIX,blzstatic.com
   - DOMAIN-SUFFIX,battle.net.cn
+  - DOMAIN-SUFFIX,w3flo.com
   - DOMAIN-KEYWORD,battle.net
   - DOMAIN-KEYWORD,blizzard
   - DOMAIN-KEYWORD,overwatch
   - DOMAIN-KEYWORD,diablo
   - DOMAIN-KEYWORD,warcraft
   - DOMAIN-KEYWORD,w3champions
+  - DOMAIN-KEYWORD,w3flo
 
   # =========================
   # Epic Games / Fortnite / Unreal
